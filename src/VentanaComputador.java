@@ -6,6 +6,6 @@ public class VentanaComputador implements Observer {
     }
 
     public void mostrarEnVentana(float numero) {
-        System.out.println("Ventana Computador: " + numero + " °C");
+        System.out.println("Ventana Computador: " + numero);
     }
 }

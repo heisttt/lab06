@@ -6,6 +6,6 @@ public class PantallaLCD implements Observer {
     }
 
     public void mostrarEnPantalla(float numero) {
-        System.out.println("Pantalla LCD: " + numero + " °C");
+        System.out.println("Pantalla LCD: " + numero);
     }
 }

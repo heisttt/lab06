@@ -6,6 +6,6 @@ public class PantallaRelojInteligente implements Observer {
     }
 
     public void mostrarEnReloj(float numero) {
-        System.out.println("Reloj Inteligente: " + numero + " °C");
+        System.out.println("Reloj Inteligente: " + numero);
     }
 }

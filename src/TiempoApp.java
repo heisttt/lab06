@@ -12,19 +12,19 @@ public class TiempoApp {
         monitor.agregarObserver(ventana);
         monitor.agregarObserver(reloj);
 
-        System.out.println("Primera actualización:");
-        monitor.setTemperatura(25.0f);
+        System.out.println("Primera actualizacion:");
+        monitor.setTemperatura(20);
 
         System.out.println();
 
-        System.out.println("Segunda actualización:");
-        monitor.setTemperatura(30.5f);
+        System.out.println("Segunda actualizacion:");
+        monitor.setTemperatura(20);
 
         System.out.println();
 
         monitor.eliminarObserver(ventana);
 
-        System.out.println("Tercera actualización:");
-        monitor.setTemperatura(18.2f);
+        System.out.println("Tercera actualizacion:");
+        monitor.setTemperatura(20);
     }
 }
